@@ -274,4 +274,16 @@ To get back the data we need to use
 And we can use this in the situations. when your are working on one feature, it is not completed
 You got some bugs in application you want to resolve it, but you are working on feature
 In this time we use git stash to save the data for later purposes.
-----
+
+------------------------------------------------------------------------------------------
+
+Git pull
+--------
+We can pull any branch code to any branch, even though it is not in the main branch
+Ex:- I have three branches in a project which is named as main, branch 1 and branch 2,
+The both branch 1 and branch 2 have the data or the files or the code base entirely from the main branch.
+That means three branches have everything, Now, I made some changes which have built a homepage.html 
+in branch1 and push to GitHub on branch1, then i want the homepage.html to branch2, this homepage.html is
+not there in main branch, even then i can pull to branch2 with the help of {git pull branch1} -- command.
+This can get the homepage.html to brnach2 then we can build on top of that/ we can make hane on that,
+and can make PR(pull request).
