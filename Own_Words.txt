@@ -274,3 +274,4 @@ To get back the data we need to use
 And we can use this in the situations. when your are working on one feature, it is not completed
 You got some bugs in application you want to resolve it, but you are working on feature
 In this time we use git stash to save the data for later purposes.
+----
